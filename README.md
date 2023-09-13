@@ -60,4 +60,5 @@ Using the spatiotemporal complexity, one can show how correlated magnetic system
 ## References
 
 [1] A. A. Bagrov, I. A. Iakovlev, A. A. Iliasov, M. I. Katsnelson, and V. V. Mazurenko, Proceedings of the National Academy of Sciences 117, 30241 (2020).
+
 [2] O. Eriksson, A. Bergman, L. Bergqvist, and J. Hellsvik, Atomistic spin dynamics: foundations and applications (Oxford university press, 2017)
