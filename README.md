@@ -10,7 +10,7 @@ Include in this repository are:
 ## MSC
 
 At a scale $k$, the smallest entity/pixel that can be resolved is denoted by $s_{i j l}(k)$, which in terms of atomistic spin dynamics represents the magnetic unit cell. Each index of $s_{i j l}(k)$ then is one of three spin components. Rescaling a coarse-grained entity admits a straightforward way to compute its overlap with different scales.
-At an arbitrary scale $k$, assume the system is represented by a matrix of size $L_{k,x}$ by $L_{k,y}$, which can be further coarse-grained into a matrix using blocks of size $\Lambda_x$ by $\Lambda_y$. The overlap at consecutive scales is then given by
+At some arbitrary scale $k$, assume the system is represented by a matrix of size $L_{k,x}$ by $L_{k,y}$, which can be further coarse-grained into a matrix using blocks of size $\Lambda_x$ by $\Lambda_y$. The overlap at consecutive scales is then given by
 
 ```math
 \mathcal{O}_{k, k-1} =\frac{1}{L_{k-1,x}\,L_{k-1,y}} \sum_{i=1}^{L_{k,x}}\sum_{j=1}^{L_{k,y}} \mathbf{s}_{i j}(k) \cdot \sum_{m=1}^{\Lambda_x} \sum_{l=1}^{\Lambda_y} \mathbf{s}_{\Lambda_x i+m, \Lambda_y j+l}(k-1)\\
@@ -48,6 +48,8 @@ This constitutes the main result of my work, which extends the static complexiti
 ## Results
 
 Using the spatiotemporal complexity, one can show how correlated magnetic systems are over a range of temperatures. For this example, I have included bcc Fe, as well as an Edwards-Anderson spin glass. Spin glasses appear complex to the eye, as their spins look randomly distributed, however, for low temperatures, spin glasses still exhibit some kind of order. Include in the figure are the time-averaged complexity $\bar{\mathcal{C}}$ and the time-extended complexity ${\tilde{\mathcal{C}}}$, which contains temporal correlations between spins.
+
+![tcorr1](https://github.com/jannesvpoppelen/Complexity/assets/98324298/390ef57e-8931-4245-a630-8cbfddb245a1)
 
 ## To do list
 
